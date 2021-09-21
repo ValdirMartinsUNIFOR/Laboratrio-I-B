@@ -1,0 +1,43 @@
+iframe.cabecalho {
+    position:fixed;
+    height:15%;
+    width:100%;
+    top:0px;
+    left:0px;
+    right:0px;
+    border:none;
+}
+img.cabecalho {
+    margin-top:10px;
+    width:250px;
+}
+iframe.menu {
+    position:fixed;
+    height:85%;
+    width:20%;
+    left:0px;
+    bottom:0px;
+    border:none;
+}
+img.menu{
+    width:350px;
+}
+a.menu {
+    top:1000px;
+    color:white;
+    font-size:30px;
+    font-family:"Courier New";
+    text-decoration:none;
+    transition:0.5s;
+}
+a.menu:hover {
+    color:orchid;
+}
+iframe.conteudo {
+    position:fixed;
+    height:85%;
+    width:80%;
+    bottom:0px;
+    right:0px;
+    border:none;
+}
